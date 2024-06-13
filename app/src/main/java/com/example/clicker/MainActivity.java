@@ -52,11 +52,16 @@ public class MainActivity extends AppCompatActivity {
         else if (counterClic==500L) {
             clicAltushka.setImageResource(R.drawable.altuha4);
         }
-        else if (counterClic==1000) {
+        else if (counterClic==1000L) {
             clicAltushka.setImageResource(R.drawable.altuha5);
         }
-        else if (counterClic==2000) {
+        else if (counterClic==2000L) {
             clicAltushka.setImageResource(R.drawable.altuha6);
+            TextClick.setText("STOP!!!!!");
+        }
+        else if (counterClic==2001L) {
+            clicAltushka.setImageResource(R.drawable.altuha6);
+            TextClick.setText("OK");
         }
 
     }
